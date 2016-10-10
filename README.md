@@ -17,4 +17,7 @@ En caso de utilizar auto-reload y preprocesamiento con sass
  * descargar librerías con `npm install`
  * ejecutar servidor con `npm run dev`
 
+Grupo:
 
+Vanessa Saez
+Javiera Torres
