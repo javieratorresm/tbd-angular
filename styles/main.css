@@ -1,0 +1,50 @@
+body {
+  color: #fff;
+  padding: 20px;
+  background: #444; }
+
+.shadow {
+  display: flex;
+  transform: rotate(30deg);
+  box-shadow: 1px 1px 5px #444; }
+
+.logo {
+  max-width: 150px;
+  float: left;
+  transition: 1000ms ease; }
+  .logo:hover {
+    transform: rotate(360deg); }
+ .palabraForm{
+  color: #000;
+ }
+
+.boton {
+  background: #9ea9b0;
+  background-image: -webkit-linear-gradient(top, #9ea9b0, #768994);
+  background-image: -moz-linear-gradient(top, #9ea9b0, #768994);
+  background-image: -ms-linear-gradient(top, #9ea9b0, #768994);
+  background-image: -o-linear-gradient(top, #9ea9b0, #768994);
+  background-image: linear-gradient(to bottom, #9ea9b0, #768994);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #0f0c0f;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.info{
+  color: #000;
+}

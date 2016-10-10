@@ -1,0 +1,21 @@
+
+ <a href="#/crear">Crear actores</a>
+
+<table class="table table">
+       <thead>
+            <tr class="info">
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+      		<tr ng-repeat="a in actors">
+				<td>
+					{{a.firstName}} 
+				</td>
+				<td>
+					{{a.lastName}}
+				</td>
+			</tr>
+        </tbody>
+    </table>
